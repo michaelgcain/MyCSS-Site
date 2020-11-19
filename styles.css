@@ -1,48 +1,61 @@
 h1 {
-  margin-top: 0;
+  margin: 50px auto 0 auto;
   font-family: 'Rock Salt', cursive;
-  color: #55e9bc;
+  color: #ffa45b;
+  font-size: 4.25rem;
 }
 
 body {
   margin: 0;
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Arvo', serif;
   color: #537780
 }
 
+
 h2 {
-  font-family: 'Arvo', serif;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.5rem;
 
 }
 
 h3 {
-  font-family: 'Arvo', serif;
-
+  font-family: 'Quicksand', sans-serif;
 }
 
 .top-container {
-  background-color: #fffcca;
+  background-color: #e0fcff;
+  position: relative;
+  padding-top: 100px;
 }
 
 .middle-container {
-  height: 200px;
-  width: 200px;
-  background-color: yellow;
+  padding-top: 20px;
+  background-color: #fffcca;
 }
 
 .bottom-container {
-  height: 200px;
-  width: 200px;
-  background-color: purple;
+  background-color: #fffcca;
+  position: relative;
+  padding-bottom: 25px;
 }
 
 .top-cloud {
-  position: relative;
-  left: 200px;
-  margin-top: 50px;
+  position: absolute;
+  right: 300px;
+  top: 50px;
 }
 
 .bottom-cloud {
   position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.btn {
+  color: #537780
+}
+
+.footer-link {
+  color: #537780
 }
